@@ -1,0 +1,5 @@
+# Ignore trained models and vectorizer files
+models/
+*.pkl
+*.h5
+*.onnx
