@@ -22,7 +22,7 @@ if __name__ == "__main__":
     #train_model(processed_csv, model_file)
 
     # Step 3: Predict Example
-    title = "stupid garbage"
+    title = "earrings"
     num_reviews = 30
     predicted_rating = predict_num_reviews(title, model_file, vectorizer_file)
     print(f"Predicto-bot-5000 thinks that the title: {title} will generate {predicted_rating:.0f} reviews.")
